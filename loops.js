@@ -14,7 +14,7 @@ do {
     {
 
     //Printing the result if the index value equals
-    document.write('This is my name : ' + names[3]);
+   console.log('This is my name : ' + names[3]);
 
     }
   
@@ -33,7 +33,7 @@ for (let name of names)
     {
 	
   //Printing the result if the name equals 
-	document.write('This is my name : ' + name)
+  console.log('This is my name : ' + name)
    
  }
 }
@@ -47,7 +47,7 @@ names.forEach(function (name, index)
     {
 
 	//Printing the result if the name equals 
-	document.write('This is my name : ' + name)
+	console.log('This is my name : ' + name)
 
     }
 
